@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BeachWater
+  m_Shader: {fileID: -6465566751694194690, guid: 02e60980b5e3b8249aeed1e81feb3f1d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 88908a7c7a1f0ed418d1048378c17411, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTex:
+        m_Texture: {fileID: 2800000, guid: 36b7496f7c0078b49a44468d3e120e62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 6a4aa5aa1ed7b9e4e9204a95f56f4d29, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IntersectionNoise:
+        m_Texture: {fileID: 2800000, guid: 5ea3d632911c4b648893c5f9eb4b46a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CausticsBrightness: 3
+    - _CausticsSpeed: 0.3
+    - _CausticsTiling: 0.15
+    - _DepthExp: 0.67
+    - _DepthVertical: 3
+    - _EdgeFade: 0.1
+    - _FoamSize: 1
+    - _FoamSpeed: 0.02
+    - _FoamStrength: 6
+    - _FoamThreshold: 0.85
+    - _FoamTiling: 1
+    - _HorizonDistance: 8
+    - _IntersectionLength: 0.5
+    - _IntersectionSpeed: 0.02
+    - _IntersectionTiling: 4
+    - _Lens1: 0.45
+    - _Lens2: 0.59
+    - _Lens3: 0.48
+    - _Lens4: 0.25
+    - _NormalSpeed: 0.01
+    - _NormalStrength: 0.5
+    - _NormalTiling: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness: 0.9
+    - _SunReflectionDistortion: 0.49
+    - _SunReflectionSize: 0.5
+    - _SunReflectionStrength: 10
+    - _WaveHeight: 2
+    - _WaveSpeed: 1
+    - _WaveSpeed1: 0.5
+    - _WaveSpeed2: 0.5
+    - _WaveSpeed3: 0.25
+    - _WaveSpeed4: 0.3
+    - _WaveSteepness: 0.1
+    - _WaveSteepness1: 0.2
+    - _WaveSteepness2: 0.3
+    - _WaveSteepness3: 0.2
+    - _WaveSteepness4: 0.01
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0.09411765, b: 0.2, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HorizonColor: {r: 0.32393697, g: 3.997602, b: 4.7593803, a: 1}
+    - _IntersectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShallowColor: {r: 0, g: 0.9411765, b: 0.41960785, a: 1}
+    - _WaveDirection: {r: 3, g: -1, b: 1, a: 1}
+    - _WaveDirection1: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _WaveDirection2: {r: -0.1, g: 0.2, b: 0, a: 0}
+    - _WaveDirection3: {r: 0.1, g: -0.1, b: 0, a: 0}
+    - _WaveDirection4: {r: -0.1, g: -0.1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3789806062994153754
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10

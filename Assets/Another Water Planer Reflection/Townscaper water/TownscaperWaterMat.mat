@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TownscaperWaterMat
+  m_Shader: {fileID: -6465566751694194690, guid: eb50f268e4fa02541a6c8c28b50287ae, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ReflectionTex:
+        m_Texture: {fileID: 8400000, guid: 052ffc3d4f3aebc488e9abdd8e0b9ba5, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DepthStrength: 5
+    - _DistortionStrength: 0.1
+    - _FPower: 0.16
+    - _FoamEdge: 0.05
+    - _FoamSoftness: 0.1
+    - _FoamSpeed: 0.57
+    - _FoamThreshold: 0.5
+    - _Foamzone: 1
+    - _NormalNoise: 50
+    - _Opacity: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RingSharpness: 25
+    - _RippleFrequiency: 10
+    - _RippleSpeed: 2
+    - _RippleTiling: 2
+    - _Transparency: 1
+    - _WaveHeight: 0.05
+    - _WaveScale: 0.02
+    - _WaveSpeed: 0
+    m_Colors:
+    - _Color: {r: 0.35686278, g: 0.5254902, b: 0.5647059, a: 1}
+    - _DeepColor: {r: 0.10196074, g: 0.3725489, b: 0.47843128, a: 1}
+    - _DistortionSpeed: {r: 0, g: 0.05, b: 0, a: 0}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShalowColor: {r: 0.30980384, g: 0.7647059, b: 0.7843137, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &235675530330019091
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10

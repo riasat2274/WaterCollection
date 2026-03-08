@@ -46,17 +46,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionStrength: 0.1
+    - _DistortionStrength: 0.01
+    - _FPower: 5.77
     - _NormalNoise: 50
     - _Opacity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReflectionIntensity: 0.271
-    - _TimeSpeed: 10
+    - _ReflectionIntensity: 0.504
+    - _TimeSpeed: 1
     - _fresnelPower: -0.02
     m_Colors:
-    - _Color: {r: 0.35686278, g: 0.5254902, b: 0.5647059, a: 1}
-    - _DistortionSpeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Color: {r: 0.33333334, g: 0.52156866, b: 0.5568628, a: 1}
+    - _DistortionSpeed: {r: 0, g: 0.06, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6401910699564770354
