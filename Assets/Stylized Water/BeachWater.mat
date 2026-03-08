@@ -54,12 +54,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CausticsBrightness: 3
-    - _CausticsSpeed: 0.3
+    - _CausticsBrightness: 6
+    - _CausticsSpeed: 0.1
     - _CausticsTiling: 0.15
     - _DepthExp: 0.67
     - _DepthVertical: 3
-    - _EdgeFade: 0.1
+    - _EdgeFade: 0.3
     - _FoamSize: 1
     - _FoamSpeed: 0.02
     - _FoamStrength: 6
