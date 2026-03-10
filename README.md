@@ -1,6 +1,6 @@
 # 🌊 Water Shader Collection
 
-A Collection of perfomant water shaders using SHader Graph.
+A Collection of performant water shaders using Shader Graph.
 
 # ✨ Stylized Water
 
