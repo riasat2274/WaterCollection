@@ -8,7 +8,7 @@ A stylized water shader supporting **Gerstner waves**, foam generation, Caustics
 
 ### Screenshot
 
-![Stylized Water Shader](screenshots/StylizedWater.png)
+![Stylized Water Shader](screenshots/StylizedWater.gif)
 
 # ✨ Toon Style Transparent Water
 
@@ -16,7 +16,7 @@ A toon style water shader supporting Caustics, foam generation, and surface dist
 
 ### Screenshot
 
-![Toon Water Shader](screenshots/ToonWater.png)
+![Toon Water Shader](screenshots/ToonWater.gif)
 
 # 🎮 Riasat Azim Khan  
 **Senior Game Programmer | Unity Specialist | Hyper-Casual, Casual & Mid-core Mobile Games**

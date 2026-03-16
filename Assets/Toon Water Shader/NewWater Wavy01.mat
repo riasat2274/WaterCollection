@@ -51,8 +51,8 @@ Material:
     - RefractionStreght: 0.02
     - WaterDepth: 2.98
     - _Metallic: 0.122
-    - _Normal_Scale: 15
-    - _Normal_Strength: 20
+    - _Normal_Scale: 25
+    - _Normal_Strength: 3
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.871
